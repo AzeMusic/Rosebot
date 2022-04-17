@@ -1,5 +1,5 @@
 {
-      "name": "ElnurSoBot",
+      "name": "MRLedybot",
       "description": "Azərbaycanca olan çox funksiyalı qrup idarə botu.",
       "keywords": [
          "telegram",
@@ -8,7 +8,7 @@
          "manager",
          "Saitama"
       ],   
-   "repository": "https://github.com/SenanOguz/Rose-Clone",
+   "repository": "https://github.com/AzeMusic/Rosebot",
    "addons": [
       {
          "options": {
@@ -19,17 +19,17 @@
    ],
    "env": {
       "TOKEN": {
-         "description": "Bot token buraya",
+         "description": "Bot token @botfather dən ala bilərsiz",
          "required": true,
          "value": ""
       },
       "API_ID": {
-         "description": "Telethon bazalı modullar üçün my.telegram.org adresindən Api ID alın.",
+         "description": "my.telegram.org adresindən vəya @ledyapiscrapperbot dan ala bilərsiz.",
          "required": true,
          "value": ""
       },
       "API_HASH": {
-         "description": "Telethon bazalı modullar üçün my.telegram.org adresindən Api Hash alın",
+         "description": "my.telegram.org adresindən vəya @ledyapiscrapperbot dan ala bilərsiz.",
          "required": true,
          "value": ""
       },    
@@ -41,16 +41,16 @@
       "OWNER_ID": {
          "description": "Sənin User ID.",
          "required": true,
-         "value": "851431936"
+         "value": "1924693109"
       },
       "OWNER_USERNAME": {
          "description": "@ işarəsi olmadan username",
-         "value": "SenanOguz"
+         "value": "Tenha055"
       },
       "SUPPORT_CHAT": {
-         "description": "Botunuzn Support qrupunun linki @ işarəsi olmadan. Öz qrupunuzu yazin SoBotlar qrup linkini yox.",
+         "description": "Botunuzun Support qrupunun linki @ işarəsi olmadan. ",
          "required": true,
-         "value": "SupportQrupum"
+         "value": "SOQrup"
       },
       "EVENT_LOGS": {
          "description": "Vacib hadisələrin saxlanacağı qrup/kanal ID",
@@ -75,7 +75,7 @@
       "DEV_USERS": {
          "description": "Bot developer'lərinin ID. Əgər yoxdursa hazırki ID ləri dəyişməyin.",
          "required": false,
-         "value": "851431936"
+         "value": "1924693109"
       },
       "sw_api": {
          "description": "Spamwatch API Token. @SpamWatchBot botundan alın.",
@@ -89,22 +89,22 @@
       "DRAGONS": {
          "description": "A space separated list of user IDs who you want to assign as sudo users.",
          "required": false,
-         "value": "851431936"
+         "value": "1924693109"
       },
       "DEMONS": {
          "description": "A space separated list of user IDs who you wanna assign as support users(gban perms only).",
          "required": false,
-         "value": "851431936"
+         "value": "1924693109"
       },
       "TIGERS": {
          "description": "A space separated list of user IDs who you wanna assign as tiger users.",
          "required": false,
-         "value": ""
+         "value": "1924693109"
       },
       "WOLVES": {
          "description": "A space separated list of user IDs who you want to assign as whitelisted - can't be banned with your bot.",
          "required": false,
-         "value": ""
+         "value": "1924693109"
       },
       "ENV": {
          "description": "Setting this to ANYTHING will enable environment variables. Leave it as it is",
