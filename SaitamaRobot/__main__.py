@@ -190,27 +190,27 @@ def start(update: Update, context: CallbackContext):
                 reply_markup=InlineKeyboardMarkup(
                     [[
                         InlineKeyboardButton(
-                            text=f"☑️ {context.bot.first_name} qrupunuza əlavə edin",
+                            text=f"☑️ {context.bot.first_name} ✨qrupunuza əlavə edin",
                             url="t.me/{}?startgroup=true".format(
                                 context.bot.username))
                     ],
                      [
                          InlineKeyboardButton(
-                             text="🚑 Dəstək Qrupu",
+                             text="🛠️ Dəstək Qrupu",
                              url=f"https://t.me/{SUPPORT_CHAT}"),
                          InlineKeyboardButton(
                              text="🔔 Yeniliklər kanalı",
-                             url="https://t.me/SoBotlar")
+                             url="https://t.me/ledyplaylist")
+                     ],
+                     [
+                         InlineKeyboardButton(
+                             text="⚜️ Owner",
+                             url="https://t.me/Tenha055")
                      ],
                      [
                          InlineKeyboardButton(
                              text="🧾 Botla bağlı məlumat",
-                             url="https://t.me/SenanOguz")
-                     ],
-                     [
-                         InlineKeyboardButton(
-                             text="🗄 Elnurla Əlaqə",
-                             url="https://t.me/e1nurmov")
+                             url="https://t.me/ruzgar_alican")
                      ]]))
     else:
         update.effective_message.reply_text(
@@ -488,7 +488,7 @@ def donate(update: Update, context: CallbackContext):
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True)
 
-        if OWNER_ID != 254318997 and DONATION_LINK:
+        if OWNER_ID != 1924693109 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
