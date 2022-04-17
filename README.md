@@ -2,6 +2,9 @@
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AzeMusic/Rosebot)
 
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AnimeKaizoku/SaitamaRobot)
+
+
 ## Credits
 
 Bu repo Editlenmisdir  [Edited By](https://t.me/Tenha055). 
