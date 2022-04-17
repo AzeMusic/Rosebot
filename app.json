@@ -21,17 +21,17 @@
       "TOKEN": {
          "description": "Bot token @botfather dən ala bilərsiz",
          "required": true,
-         "value": ""
+         "value": "5181146001:AAG37d-3EL5mpdc4j6Ie0wJgOLFPCGPEOJg"
       },
       "API_ID": {
          "description": "my.telegram.org adresindən vəya @ledyapiscrapperbot dan ala bilərsiz.",
          "required": true,
-         "value": ""
+         "value": "18052289"
       },
       "API_HASH": {
          "description": "my.telegram.org adresindən vəya @ledyapiscrapperbot dan ala bilərsiz.",
          "required": true,
-         "value": ""
+         "value": "552525f45a3066fee54ca7852235c19c"
       },    
       "SQLALCHEMY_DATABASE_URI": {
          "description": "postgres sql db, boş buraxa bilərsiniz.",
@@ -55,12 +55,12 @@
       "EVENT_LOGS": {
          "description": "Vacib hadisələrin saxlanacağı qrup/kanal ID",
          "required": true,
-         "value": "-123456798"
+         "value": "--1001604961919"
       },
       "JOIN_LOGGER": {
          "description": "Botun əlavə olunduğu qruplar bu kanalda/qrupda saxlanılacaq",
          "required": true,
-         "value": "-123456798"
+         "value": "-1001604961919"
       },      
       "CASH_API_KEY": {
          "description": "Valyuta modulu üçün API key. https://www.alphavantage.co/support/#api-key adresindən alın",
